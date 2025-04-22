@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from st_aggrid import GridOptionsBuilder, AgGrid
+import gspread
 
 # Initialize session state for tasks and messages
 if 'tasks' not in st.session_state:
